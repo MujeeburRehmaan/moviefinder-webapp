@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Movie Search App</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="stars-bg"></div>
+    
+    <div class="container">
+        
+        <!-- Header -->
+        <header class="text-center py-5">
+            <h1 class="display-3 fw-bold text-white mb-2 glitch-text" data-text="🎬 MOVIE SEARCH APP">🎬 MOVIE SEARCH APP</h1>
+            <p class="lead text-light opacity-75">Discover your next favorite film</p>
+        </header>
+        
+        <!-- Search Section -->
+        <section class="search-section mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="search-wrapper">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            class="form-control search-input" 
+                            placeholder="Search for movies... (e.g., Inception, Avatar, Interstellar)"
+                            autocomplete="off"
+                        >
+                        <button id="searchBtn" class="btn btn-search">
+                            <span class="search-text">SEARCH</span>
+                            <span class="search-icon">🔍</span>
+                        </button>
+                    </div>
+                    <div id="errorMessage" class="alert alert-danger mt-3 d-none" role="alert"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Loading Spinner -->
+        <div id="loadingSpinner" class="text-center my-5 d-none">
+            <div class="spinner-border text-warning" style="width: 4rem; height: 4rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="text-white mt-3 fs-5">Searching for movies...</p>
+        </div>
+        
+        <!-- Movies Grid -->
+        <section id="moviesContainer" class="movies-grid mb-5"></section>
+        
+    </div>
+    
+    <!-- Movie Details Modal -->
+    <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark-custom">
+                <div class="modal-header border-bottom border-secondary">
+                    <h5 class="modal-title text-white" id="movieModalLabel">Movie Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Movie details will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
