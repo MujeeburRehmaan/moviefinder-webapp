@@ -44,13 +44,6 @@ Before you begin, you need:
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - An OMDb API key (free)
 
-## 🔑 Getting Your OMDb API Key
-
-1. Visit [OMDb API](http://www.omdbapi.com/apikey.aspx)
-2. Select the **FREE** tier (1,000 daily requests)
-3. Enter your email address
-4. Check your email and activate your key
-5. Copy your API key
 
 ## ⚙️ Installation & Setup
 
