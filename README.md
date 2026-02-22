@@ -27,13 +27,6 @@ A modern, responsive movie search web application built with HTML, CSS, JavaScri
 - 🖼️ **Fallback Images** - Automatic placeholder for missing posters
 - ⌨️ **Keyboard Support** - Press Enter to search
 
-## 🚀 Demo
-
-[Live Demo](#) _(Add your GitHub Pages link here after deployment)_
-
-## 📸 Screenshots
-
-_Add screenshots of your application here_
 
 ## 🛠️ Technologies Used
 
