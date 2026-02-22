@@ -149,7 +149,7 @@ const API_BASE_URL = 'https://www.omdbapi.com/';
 2. Click **Settings** → **Pages**
 3. Under "Source", select **main** branch
 4. Click **Save**
-5. Your site will be published at `https://YOUR_USERNAME.github.io/movie-search-app/`
+5. Your site will be published at `https://MujeeburRehmaan.github.io/movie-search-app/`
 
 ### Netlify
 
