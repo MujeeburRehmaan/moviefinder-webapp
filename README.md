@@ -151,12 +151,6 @@ const API_BASE_URL = 'https://www.omdbapi.com/';
 4. Click **Save**
 5. Your site will be published at `https://MujeeburRehmaan.github.io/movie-search-app/`
 
-### Netlify
-
-1. Create account on [Netlify](https://www.netlify.com/)
-2. Click **Add new site** → **Import an existing project**
-3. Connect your GitHub repository
-4. Click **Deploy site**
 
 ### Vercel
 
@@ -196,10 +190,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+Mujeeb ur Reman 
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- GitHub: (https://github.com/MujeeburRehmaan)
 
 ## 🙏 Acknowledgments
 
