@@ -44,6 +44,9 @@ Before you begin, you need:
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - An OMDb API key (free)
 
+🚀 Demo
+Live Demo : https://moviefinder-webapp.vercel.app/
+
 
 ## ⚙️ Installation & Setup
 
