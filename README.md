@@ -48,54 +48,7 @@ Before you begin, you need:
 Live Demo : https://moviefinder-webapp.vercel.app/
 
 
-## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/movie-search-app.git
-```
-
-### 2. Navigate to Project Directory
-
-```bash
-cd movie-search-app
-```
-
-### 3. Add Your API Key
-
-Open `script.js` and replace the API key on line 6:
-
-```javascript
-const API_KEY = 'YOUR_API_KEY_HERE';
-```
-
-### 4. Open the Application
-
-Simply open `index.html` in your web browser:
-
-```bash
-# On macOS
-open index.html
-
-# On Linux
-xdg-open index.html
-
-# On Windows
-start index.html
-```
-
-Or use a local development server:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js (http-server)
-npx http-server
-```
-
-Then visit `http://localhost:8000`
 
 ## 📁 Project Structure
 
